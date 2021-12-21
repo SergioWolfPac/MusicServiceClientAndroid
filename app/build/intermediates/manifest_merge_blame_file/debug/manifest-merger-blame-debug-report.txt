@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.Services.KeyClient"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:8:5-10:15
+12        <package android:name="course.examples.Services.KeyService" />
+12-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:9:9-70
+12-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:9:18-68
+13    </queries>
+14
+15    <uses-permission android:name="course.examples.Services.KeyService.GEN_ID" />
+15-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:12:5-82
+15-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:12:22-79
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:13:5-68
+16-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:13:22-65
+17
+18    <application
+18-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:15:5-27:19
+19        android:allowBackup="false"
+19-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:16:9-36
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\s3rgi\.gradle\caches\transforms-3\88ef50e4ccd3e4cb7cc8d2b9b7b5ed1a\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@drawable/ic_launcher"
+23-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:17:9-45
+24        android:testOnly="true" >
+25        <activity
+25-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:18:9-26:20
+26            android:name="course.examples.Services.KeyClient.KeyServiceUser"
+26-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:19:13-43
+27            android:label="@string/app_name" >
+27-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:20:13-45
+28            <intent-filter>
+28-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:21:13-25:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:22:17-69
+29-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:22:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:24:17-77
+31-->C:\Users\s3rgi\Desktop\Coding\cs478\MusicClient-sruela2\app\src\main\AndroidManifest.xml:24:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>
